@@ -81,8 +81,8 @@ GPS Position  : 5 deg 38' 59.64" N, 0 deg 10' 36.84" W
 ## ✅ Q2 — Two Timestamps & The Discrepancy
 
 ```
-Date/Time Original : 2024:04:06 19:47:11   ← when photo was taken
-Modify Date        : 2024:04:09 22:14:33   ← when file was modified
+Date/Time Original : [REDACTED]   ← when photo was taken
+Modify Date        : [REDACTED]   ← when file was modified
 ```
 
 ⚠️ **Finding:** The footage was originally captured on **April 6** but was modified/re-processed on **April 9 at 22:14** — the same night as the murder. This is clear evidence of **footage tampering**.
@@ -108,13 +108,13 @@ exiftool -b -MakerNoteUnknownText suspect_device.jpg | strings
 ```
 
 ```
-Samsung|SN:R5CNA04JKBM|IMEI:356841112947603|[REDACTED]
+Samsung|SN:[REDACTED]|IMEI:[REDACTED]|[REDACTED]
 ```
 
 📱 **Finding:**
 - **Device:** Samsung SM-S928B (Galaxy S24 Ultra)
-- **Serial Number:** `R5CNA04JKBM`
-- **IMEI:** `356841112947603`
+- **Serial Number:** `[REDACTED]`
+- **IMEI:** `[REDACTED]`
 - 🚩 **Flag:** `[REDACTED]`
 
 ---
@@ -125,14 +125,14 @@ Samsung|SN:R5CNA04JKBM|IMEI:356841112947603|[REDACTED]
 
 ```
 Artist   : Kofi Mensah-Addo | APH Operations Dept | Unauthorized Copy
-Software : APH-DocVault v2.1.4 [INTERNAL] | User: k.mensah-addo@aph.com.gh
+Software : [REDACTED] [INTERNAL] | User: [REDACTED]
 Scanner  : Canon imageFORMULA DR-C230
 ```
 
 📄 **Findings:**
 - **Real Author:** Kofi Mensah-Addo
-- **Internal Software:** APH-DocVault v2.1.4
-- **Email embedded:** `k.mensah-addo@aph.com.gh`
+- **Internal Software:** [REDACTED]
+- **Email embedded:** `[REDACTED]`
 
 The Artist field self-incriminates with the tag **"Unauthorized Copy"**. The suspect used his own corporate account to scan and leak classified documents.
 
@@ -163,11 +163,11 @@ GPS Position  : 5 deg 36' 18.72" N, 0 deg 10' 0.48" W
 ![Step 6 - MakerNote extraction and base64 decode](ss6.png)
 
 ```
-XP Comment : SElWRXtERUFEX1JFQ0tPTklOR19DT01QTEVURV9LT0ZJX01FTlNBSF9BRERPX0lTX1lPVVJfTUFOfQ==
+XP Comment : [REDACTED]
 ```
 
 ```bash
-echo "SElWRXtERUFEX1JFQ0tPTklOR19DT01QTEVURV9LT0ZJX01FTlNBSF9BRERPX0lTX1lPVVJfTUFOfQ==" | base64 -d
+echo "[REDACTED]" | base64 -d
 ```
 
 ```
@@ -194,9 +194,9 @@ echo "SElWRXtERUFEX1JFQ0tPTklOR19DT01QTEVURV9LT0ZJX01FTlNBSF9BRERPX0lTX1lPVVJfTU
 | **Q1** — True GPS location | `5° 38' 59.64" N, 0° 10' 36.84" W` → Meridian Towers, Accra |
 | **Q2** — Timestamp discrepancy | Taken Apr 6 19:47, modified Apr 9 22:14 → footage tampered |
 | **Q3** — Timezone offset | `+00:00` (Ghana/UTC) not `+01:00` (BST) → not in London |
-| **Q4** — Device serial | `R5CNA04JKBM` / IMEI: `356841112947603` |
-| **Q5** — Document author & software | Kofi Mensah-Addo / APH-DocVault v2.1.4 |
-| **Q6** — Embedded email | `k.mensah-addo@aph.com.gh` |
+| **Q4** — Device serial | `[REDACTED]` / IMEI: `[REDACTED]` |
+| **Q5** — Document author & software | Kofi Mensah-Addo / [REDACTED] |
+| **Q6** — Embedded email | `[REDACTED]` |
 | **Q7** — Alibi photo GPS | Kotoka Airport, Accra — NOT Heathrow |
 | **Q8** — Decoded flag | `[REDACTED]` |
 
