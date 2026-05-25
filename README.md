@@ -108,14 +108,14 @@ exiftool -b -MakerNoteUnknownText suspect_device.jpg | strings
 ```
 
 ```
-Samsung|SN:R5CNA04JKBM|IMEI:356841112947603|HIVE{DEVICE_SN_R5CNA04JKBM}
+Samsung|SN:R5CNA04JKBM|IMEI:356841112947603|[REDACTED]
 ```
 
 📱 **Finding:**
 - **Device:** Samsung SM-S928B (Galaxy S24 Ultra)
 - **Serial Number:** `R5CNA04JKBM`
 - **IMEI:** `356841112947603`
-- 🚩 **Flag:** `HIVE{DEVICE_SN_R5CNA04JKBM}`
+- 🚩 **Flag:** `[REDACTED]`
 
 ---
 
@@ -171,10 +171,10 @@ echo "SElWRXtERUFEX1JFQ0tPTklOR19DT01QTEVURV9LT0ZJX01FTlNBSF9BRERPX0lTX1lPVVJfTU
 ```
 
 ```
-HIVE{DEAD_RECKONING_COMPLETE_KOFI_MENSAH_ADDO_IS_YOUR_MAN}
+[REDACTED]
 ```
 
-🚩 **Flag:** `HIVE{DEAD_RECKONING_COMPLETE_KOFI_MENSAH_ADDO_IS_YOUR_MAN}`
+🚩 **Flag:** `[REDACTED]`
 
 ---
 
@@ -182,8 +182,8 @@ HIVE{DEAD_RECKONING_COMPLETE_KOFI_MENSAH_ADDO_IS_YOUR_MAN}
 
 | # | Flag |
 |---|------|
-| 🚩 Flag 1 | `HIVE{DEVICE_SN_R5CNA04JKBM}` |
-| 🚩 Flag 2 | `HIVE{DEAD_RECKONING_COMPLETE_KOFI_MENSAH_ADDO_IS_YOUR_MAN}` |
+| 🚩 Flag 1 | `[REDACTED]` |
+| 🚩 Flag 2 | `[REDACTED]` |
 
 ---
 
@@ -198,7 +198,7 @@ HIVE{DEAD_RECKONING_COMPLETE_KOFI_MENSAH_ADDO_IS_YOUR_MAN}
 | **Q5** — Document author & software | Kofi Mensah-Addo / APH-DocVault v2.1.4 |
 | **Q6** — Embedded email | `k.mensah-addo@aph.com.gh` |
 | **Q7** — Alibi photo GPS | Kotoka Airport, Accra — NOT Heathrow |
-| **Q8** — Decoded flag | `HIVE{DEAD_RECKONING_COMPLETE_KOFI_MENSAH_ADDO_IS_YOUR_MAN}` |
+| **Q8** — Decoded flag | `[REDACTED]` |
 
 ---
 
