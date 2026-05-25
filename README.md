@@ -74,7 +74,7 @@ GPS Longitude : [REDACTED]
 GPS Position  : [REDACTED]
 ```
 
-📍 **Finding:** The GPS coordinates place the CCTV camera at **Meridian Towers, Accra, Ghana** — contradicting the official report's stated location.
+📍 **Finding:** The GPS coordinates place the CCTV camera at **[REDACTED]** — contradicting the official report's stated location.
 
 ---
 
@@ -150,11 +150,11 @@ GPS Position  : [REDACTED], [REDACTED]
 
 | Location | Coordinates |
 |----------|-------------|
-| **Embedded in photo** | [REDACTED] → **Kotoka Intl. Airport, Accra** |
+| **Embedded in photo** | [REDACTED] → **[REDACTED]** |
 | **Heathrow (claimed)** | [REDACTED] → London, England |
 | **Distance apart** | ~[REDACTED] |
 
-✈️ **Finding:** The suspect claimed to be at Heathrow Airport. The GPS in his iPhone 15 Pro Max places him at **Kotoka International Airport, Accra, Ghana**. Alibi destroyed.
+✈️ **Finding:** The suspect claimed to be at Heathrow Airport. The GPS in his iPhone 15 Pro Max places him at **[REDACTED]**. [REDACTED]
 
 ---
 
@@ -191,13 +191,13 @@ echo "[REDACTED]" | base64 -d
 
 | Question | Answer |
 |----------|--------|
-| **Q1** — True GPS location | `5° 38' 59.64" N, 0° 10' 36.84" W` → Meridian Towers, Accra |
-| **Q2** — Timestamp discrepancy | Taken Apr 6 19:47, modified Apr 9 22:14 → footage tampered |
-| **Q3** — Timezone offset | `[REDACTED]` [REDACTED] not `[REDACTED]` (BST) → not in London |
+| **Q1** — True GPS location | `[REDACTED]` → [REDACTED] |
+| **Q2** — Timestamp discrepancy | [REDACTED] |
+| **Q3** — Timezone offset | `[REDACTED]` [REDACTED] not `[REDACTED]` [REDACTED] |
 | **Q4** — Device serial | `[REDACTED]` / IMEI: `[REDACTED]` |
 | **Q5** — Document author & software | Kofi Mensah-Addo / [REDACTED] |
 | **Q6** — Embedded email | `[REDACTED]` |
-| **Q7** — Alibi photo GPS | Kotoka Airport, Accra — NOT Heathrow |
+| **Q7** — Alibi photo GPS | [REDACTED] |
 | **Q8** — Decoded flag | `[REDACTED]` |
 
 ---
