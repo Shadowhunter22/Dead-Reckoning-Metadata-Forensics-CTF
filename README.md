@@ -69,9 +69,9 @@ exiftool crime_scene_photo.jpg suspect_device.jpg leaked_document_scan.jpg alibi
 From `crime_scene_photo.jpg` metadata:
 
 ```
-GPS Latitude  : 5 deg 38' 59.64" N
-GPS Longitude : 0 deg 10' 36.84" W
-GPS Position  : 5 deg 38' 59.64" N, 0 deg 10' 36.84" W
+GPS Latitude  : [REDACTED]
+GPS Longitude : [REDACTED]
+GPS Position  : [REDACTED]
 ```
 
 📍 **Finding:** The GPS coordinates place the CCTV camera at **Meridian Towers, Accra, Ghana** — contradicting the official report's stated location.
@@ -94,10 +94,10 @@ Modify Date        : [REDACTED]   ← when file was modified
 ![Step 3 - suspect_device.jpg metadata](ss3.png)
 
 ```
-Offset Time Original : +00:00
+Offset Time Original : [REDACTED]
 ```
 
-🌍 **Finding:** London in April operates on **BST (UTC+1)**. The suspect's Samsung Galaxy S24 Ultra recorded timezone **+00:00 (UTC/Ghana time)**. This proves his phone was **not in the UK** when the photo was taken.
+🌍 **Finding:** London in April operates on **BST ([REDACTED])**. The suspect's Samsung Galaxy S24 Ultra recorded timezone **[REDACTED] ([REDACTED])**. This proves his phone was **not in the UK** when the photo was taken.
 
 ---
 
@@ -143,16 +143,16 @@ The Artist field self-incriminates with the tag **"Unauthorized Copy"**. The sus
 ![Step 5 - alibi_photo.jpg metadata](ss5.png)
 
 ```
-GPS Latitude  : 5 deg 36' 18.72" N
-GPS Longitude : 0 deg 10' 0.48" W
-GPS Position  : 5 deg 36' 18.72" N, 0 deg 10' 0.48" W
+GPS Latitude  : [REDACTED]
+GPS Longitude : [REDACTED]
+GPS Position  : [REDACTED], [REDACTED]
 ```
 
 | Location | Coordinates |
 |----------|-------------|
-| **Embedded in photo** | 5.6052°N, 0.1668°W → **Kotoka Intl. Airport, Accra** |
-| **Heathrow (claimed)** | 51.4700°N, 0.4543°W → London, England |
-| **Distance apart** | ~5,160 km |
+| **Embedded in photo** | [REDACTED] → **Kotoka Intl. Airport, Accra** |
+| **Heathrow (claimed)** | [REDACTED] → London, England |
+| **Distance apart** | ~[REDACTED] |
 
 ✈️ **Finding:** The suspect claimed to be at Heathrow Airport. The GPS in his iPhone 15 Pro Max places him at **Kotoka International Airport, Accra, Ghana**. Alibi destroyed.
 
@@ -193,7 +193,7 @@ echo "[REDACTED]" | base64 -d
 |----------|--------|
 | **Q1** — True GPS location | `5° 38' 59.64" N, 0° 10' 36.84" W` → Meridian Towers, Accra |
 | **Q2** — Timestamp discrepancy | Taken Apr 6 19:47, modified Apr 9 22:14 → footage tampered |
-| **Q3** — Timezone offset | `+00:00` (Ghana/UTC) not `+01:00` (BST) → not in London |
+| **Q3** — Timezone offset | `[REDACTED]` [REDACTED] not `[REDACTED]` (BST) → not in London |
 | **Q4** — Device serial | `[REDACTED]` / IMEI: `[REDACTED]` |
 | **Q5** — Document author & software | Kofi Mensah-Addo / [REDACTED] |
 | **Q6** — Embedded email | `[REDACTED]` |
